@@ -90,27 +90,48 @@ Faites preuve de pédagogie et soyez clair dans vos explications et procedures d
 **Question 1 :**  
 Pourquoi Ansible est-il qualifié d’outil "déclaratif" ?    
   
-*..Répondez à cet exercice ici..*
+*Ansible est dit déclaratif car on décrit l’état final souhaité du système (ex : “le service doit être installé et démarré”), et non les étapes détaillées pour y arriver.*
 
 **Question 2 :**  
 Pourquoi l’utilisation de variables est-elle essentielle dans un playbook ?  
   
-*..Répondez à cet exercice ici..*
+*Les variables permettent de :
+
+rendre les playbooks réutilisables
+éviter de répéter du code
+adapter facilement la configuration (ex : ports, utilisateurs, chemins)*
 
 **Question 3 :**  
 En quoi Ansible facilite-t-il la gestion de plusieurs serveurs ?  
   
-*..Répondez à cet exercice ici..*
+*Ansible facilite ça grâce à :
+
+un fichier d’inventaire (liste des serveurs)
+l’exécution en parallèle des tâches
+une connexion simple en SSH sans agent*
 
 **Question 4 :**  
 Quels sont les avantages et les limites d’Ansible dans un contexte DevOps ?   
   
-*..Répondez à cet exercice ici..*
+*Avantages :
+
+simple à apprendre (YAML)
+pas besoin d’agent
+rapide à mettre en place
+automatisation puissante
+
+Limites :
+
+moins performant à très grande échelle
+dépend du SSH
+gestion d’état moins avancée que certains outils (ex : Terraform pour infra)*
   
 **Question 5 :**  
 Quelle est la différence entre les modules copy et template dans Ansible ?   
   
-*..Répondez à cet exercice ici..*
+*copy : copie un fichier tel quel sur le serveur
+template : copie un fichier mais en remplaçant des variables (avec Jinja2)*
+
 
 ---------------------------------------------------
 Séquence 5 : Atelier  
