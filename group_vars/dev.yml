@@ -1,4 +1,4 @@
-app_name: "Application DEV"
+app_name: "Application DEV déployé avec ansible"
 env: "dev"
-author: "Etudiant DEV"
-app_user: "devuser"
+author: "dev - nico et agathe"
+app_user: "equipe dev"

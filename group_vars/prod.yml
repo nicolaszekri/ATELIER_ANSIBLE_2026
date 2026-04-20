@@ -1,4 +1,4 @@
-app_name: "Application PROD"
+app_name: "Application PROD depoyé avec ansible"
 env: "prod"
-author: "Equipe Ops"
-app_user: "opsuser"
+author: "ops - nico et agathe"
+app_user: "ops"
