@@ -1,6 +1,6 @@
 ---
 - name: Atelier Ansible dans GitHub Codespaces - version durcie avec remédiation
-  hosts: local
+  hosts: all
   become: true
   gather_facts: true
 

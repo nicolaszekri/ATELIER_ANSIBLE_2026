@@ -1,0 +1,4 @@
+app_name: "Application PROD"
+env: "prod"
+author: "Equipe Ops"
+app_user: "opsuser"
